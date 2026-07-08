@@ -132,6 +132,19 @@ em { font-style: italic; color: var(--accent); }
 .header-right { display: flex; align-items: center; gap: 36px; }
 .main-nav { display: flex; gap: 32px; }
 .main-nav a { font-size: 0.85rem; color: var(--text-secondary); }
+.header-actions { display: flex; align-items: center; gap: 14px; }
+.lang-switch {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  background: none;
+  border: 1px solid var(--border-strong);
+  color: var(--text-secondary);
+  padding: 7px 11px;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+.lang-switch:hover { border-color: var(--accent); color: var(--text-primary); }
 .main-nav a:hover { color: var(--text-primary); }
 
 /* Hero */
