@@ -79,14 +79,6 @@ em { font-style: italic; color: var(--accent); }
 }
 .btn-primary { background: var(--accent); color: var(--bg); }
 .btn-primary:hover { background: var(--accent-bright); }
-.btn-secondary {
-  background: none;
-  border: 1px solid var(--border-strong-2);
-  color: var(--text-primary);
-  font-weight: 500;
-  padding: 12px 24px;
-}
-.btn-secondary:hover { border-color: var(--accent); }
 .btn-small { padding: 11px 22px; font-size: 0.83rem; }
 .btn-full { width: 100%; text-align: center; margin-top: 4px; }
 
