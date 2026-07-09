@@ -177,10 +177,6 @@ em { font-style: italic; color: var(--accent); }
 .microcopy { font-size: 0.8rem; color: var(--text-tertiary); margin-top: 14px; }
 
 /* Mid CTA */
-.mid-cta { padding: 46px 0; border-top: 1px solid var(--border); background: var(--bg-alt); }
-.mid-cta-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
-.mid-cta-text { font-family: var(--font-headline); font-size: 1.2rem; max-width: 480px; }
-
 /* Section intros / kickers */
 .kicker { display: flex; align-items: baseline; gap: 14px; margin-bottom: 14px; }
 .kicker-center { justify-content: center; align-items: center; }

@@ -39,13 +39,6 @@ collections:
               - { label: "Secondary button", name: "ctaSecondary", widget: "string" }
               - { label: "Microcopy under buttons", name: "micro", widget: "string" }
 
-          - label: "Mid-page CTA Strip"
-            name: "mid"
-            widget: "object"
-            fields:
-              - { label: "Text", name: "text", widget: "string" }
-              - { label: "Button", name: "cta", widget: "string" }
-
           - label: "Dual Path Section"
             name: "paths"
             widget: "object"
