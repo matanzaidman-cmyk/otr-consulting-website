@@ -1,0 +1,160 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+site_url: https://otr-consulting.com
+display_url: https://otr-consulting.com
+
+collections:
+  - name: "content"
+    label: "Website Content"
+    files:
+      - file: "content/en.json"
+        label: "English Homepage"
+        name: "en"
+        fields: &homepage_fields
+          - label: "Navigation"
+            name: "nav"
+            widget: "object"
+            fields:
+              - { label: "What We Do", name: "work", widget: "string" }
+              - { label: "Process", name: "process", widget: "string" }
+              - { label: "About", name: "about", widget: "string" }
+              - { label: "Book a Call (button)", name: "book", widget: "string" }
+
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow label", name: "eyebrow", widget: "string" }
+              - { label: "Domain tag", name: "tag", widget: "string" }
+              - { label: "Headline - part before emphasis", name: "pre", widget: "string" }
+              - { label: "Headline - emphasized word", name: "em", widget: "string" }
+              - { label: "Headline - part after emphasis", name: "post", widget: "string" }
+              - { label: "Lead paragraph", name: "lead", widget: "text" }
+              - { label: "Primary button", name: "ctaPrimary", widget: "string" }
+              - { label: "Secondary button", name: "ctaSecondary", widget: "string" }
+              - { label: "Microcopy under buttons", name: "micro", widget: "string" }
+
+          - label: "Mid-page CTA Strip"
+            name: "mid"
+            widget: "object"
+            fields:
+              - { label: "Text", name: "text", widget: "string" }
+              - { label: "Button", name: "cta", widget: "string" }
+
+          - label: "Dual Path Section"
+            name: "paths"
+            widget: "object"
+            fields:
+              - { label: "Kicker label", name: "kicker", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Subheading", name: "sub", widget: "text" }
+              - label: "Column A"
+                name: "colA"
+                widget: "object"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Sub-line", name: "sub", widget: "string" }
+                  - label: "Items"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                      - { label: "Description", name: "desc", widget: "text" }
+              - label: "Column B"
+                name: "colB"
+                widget: "object"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Sub-line", name: "sub", widget: "string" }
+                  - label: "Items"
+                    name: "items"
+                    widget: "list"
+                    fields:
+                      - { label: "Title", name: "title", widget: "string" }
+                      - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Footnote", name: "footnote", widget: "text" }
+
+          - label: "Strategic Consulting Strip"
+            name: "consulting"
+            widget: "object"
+            fields:
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Bold ending clause", name: "strong", widget: "text" }
+              - { label: "Link text", name: "cta", widget: "string" }
+
+          - label: "How It Works Section"
+            name: "how"
+            widget: "object"
+            fields:
+              - { label: "Kicker label", name: "kicker", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Steps"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - { label: "Number", name: "num", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "About / Why Us Section"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Kicker label", name: "kicker", widget: "string" }
+              - { label: "Lead paragraph", name: "lead", widget: "text" }
+              - { label: "Link text", name: "link", widget: "string" }
+
+          - label: "Clients Section"
+            name: "clients"
+            widget: "object"
+            fields:
+              - { label: "Kicker label", name: "kicker", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Subheading", name: "sub", widget: "text" }
+              - label: "Client Types"
+                name: "types"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Final CTA Section"
+            name: "finalCta"
+            widget: "object"
+            fields:
+              - { label: "Kicker label", name: "kicker", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Button", name: "cta", widget: "string" }
+              - { label: "Microcopy", name: "micro", widget: "string" }
+
+          - label: "Contact Modal"
+            name: "modal"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subheading", name: "sub", widget: "string" }
+              - { label: "Name field label", name: "name", widget: "string" }
+              - { label: "Name field placeholder", name: "namePh", widget: "string" }
+              - { label: "Email field label", name: "email", widget: "string" }
+              - { label: "Email field placeholder", name: "emailPh", widget: "string" }
+              - { label: "Company field label", name: "company", widget: "string" }
+              - { label: "Company '(optional)' tag", name: "companyOpt", widget: "string" }
+              - { label: "Company field placeholder", name: "companyPh", widget: "string" }
+              - { label: "Message field label", name: "message", widget: "string" }
+              - { label: "Message field placeholder", name: "messagePh", widget: "string" }
+              - { label: "Send button", name: "send", widget: "string" }
+              - { label: "'Prefer to reach out directly?' text", name: "direct", widget: "string" }
+              - { label: "Success title", name: "successTitle", widget: "string" }
+              - { label: "Success body", name: "successBody", widget: "string" }
+
+      - file: "content/he.json"
+        label: "Hebrew Homepage (עברית)"
+        name: "he"
+        fields: *homepage_fields

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html lang="he" dir="rtl" data-content-path="../content/he.json">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,13 +36,13 @@
     </a>
     <div class="header-right">
       <nav class="main-nav">
-        <a href="#paths">מה אנחנו עושים</a>
-        <a href="#how">תהליך העבודה</a>
-        <a href="#about">אודות</a>
+        <a href="#paths" data-key="nav.work">מה אנחנו עושים</a>
+        <a href="#how" data-key="nav.process">תהליך העבודה</a>
+        <a href="#about" data-key="nav.about">אודות</a>
       </nav>
       <div class="header-actions">
         <a href="../" class="lang-switch">EN</a>
-        <button type="button" class="btn btn-primary btn-small js-open-modal">לתיאום שיחה</button>
+        <button type="button" class="btn btn-primary btn-small js-open-modal" data-key="nav.book">לתיאום שיחה</button>
       </div>
     </div>
   </div>
@@ -54,25 +54,25 @@
   <section class="hero">
     <div class="wrap">
       <div class="masthead">
-        <span class="mono eyebrow">אסטרטגיה · הטמעת AI</span>
+        <span class="mono eyebrow" data-key="hero.eyebrow">אסטרטגיה · הטמעת AI</span>
         <span class="divider-v"></span>
-        <span class="mono tag" dir="ltr">OTR-Consulting.com</span>
+        <span class="mono tag" dir="ltr" data-key="hero.tag">OTR-Consulting.com</span>
       </div>
-      <h1 class="hero-h1">אסטרטגיה שיודעת מה לבנות. <em>AI</em> שיודע איך לבנות את זה.</h1>
-      <p class="hero-lead">אתם לא חייבים לדעת בדיוק מה AI יכול לעשות בשבילכם - מספיק לדעת למי לפנות. OTR Consulting היא פרקטיקת אסטרטגיה והטמעת AI. אנחנו מלווים ארגונים בכל גודל ומכל תחום לאורך כל הדרך - ממחקר שוק ומיפוי הסקטור, דרך גיבוש אסטרטגיית כניסה לשוק ובניית מערכת ה-AI המדויקת לכם, ועד לתחזוקה שוטפת אחרי ההשקה. אין כאן תפריט קבוע - כל תהליך מתחיל מהמצב הספציפי שלכם, ומשם נגזר הפתרון הנכון.</p>
+      <h1 class="hero-h1"><span data-key="hero.pre">אסטרטגיה שיודעת מה לבנות. </span><em data-key="hero.em">AI</em><span data-key="hero.post"> שיודע איך לבנות את זה.</span></h1>
+      <p class="hero-lead" data-key="hero.lead">אתם לא חייבים לדעת בדיוק מה AI יכול לעשות בשבילכם - מספיק לדעת למי לפנות. OTR Consulting היא פרקטיקת אסטרטגיה והטמעת AI. אנחנו מלווים ארגונים בכל גודל ומכל תחום לאורך כל הדרך - ממחקר שוק ומיפוי הסקטור, דרך גיבוש אסטרטגיית כניסה לשוק ובניית מערכת ה-AI המדויקת לכם, ועד לתחזוקה שוטפת אחרי ההשקה. אין כאן תפריט קבוע - כל תהליך מתחיל מהמצב הספציפי שלכם, ומשם נגזר הפתרון הנכון.</p>
       <div class="cta-row">
-        <button type="button" class="btn btn-primary js-open-modal">לתיאום שיחה</button>
-        <a href="#paths" class="btn btn-secondary">כך אנחנו עובדים</a>
+        <button type="button" class="btn btn-primary js-open-modal" data-key="hero.ctaPrimary">לתיאום שיחה</button>
+        <a href="#paths" class="btn btn-secondary" data-key="hero.ctaSecondary">כך אנחנו עובדים</a>
       </div>
-      <p class="microcopy">ללא עלות - רק שיחת היכרות על העסק שלכם.</p>
+      <p class="microcopy" data-key="hero.micro">ללא עלות - רק שיחת היכרות על העסק שלכם.</p>
     </div>
   </section>
 
   <!-- MID CTA -->
   <section class="mid-cta">
     <div class="wrap mid-cta-inner">
-      <p class="mid-cta-text">מזהים את עצמכם באחת מהדוגמאות האלה? בואו נדבר על זה.</p>
-      <button type="button" class="btn btn-primary btn-small js-open-modal">לתיאום שיחה</button>
+      <p class="mid-cta-text" data-key="mid.text">מזהים את עצמכם באחת מהדוגמאות האלה? בואו נדבר על זה.</p>
+      <button type="button" class="btn btn-primary btn-small js-open-modal" data-key="mid.cta">לתיאום שיחה</button>
     </div>
   </section>
 
@@ -83,18 +83,24 @@
         <div class="kicker">
           <span class="roman">I</span>
           <span class="rule"></span>
-          <span class="mono kicker-label">איך זה בדרך כלל מתחיל</span>
+          <span class="mono kicker-label" data-key="paths.kicker">איך זה בדרך כלל מתחיל</span>
         </div>
-        <h2>שתי נקודות הפתיחה הכי נפוצות.</h2>
-        <p class="section-sub">אלו לא חבילות קבועות, אלא דוגמאות לאופן שבו שיחות איתנו בדרך כלל מתחילות. לא משנה איזו מהן מתארת אתכם יותר טוב - התוצאה זהה: פתרון שמותאם בדיוק למה שאתם צריכים.</p>
+        <h2 data-key="paths.heading">שתי נקודות הפתיחה הכי נפוצות.</h2>
+        <p class="section-sub" data-key="paths.sub">אלו לא חבילות קבועות, אלא דוגמאות לאופן שבו שיחות איתנו בדרך כלל מתחילות. לא משנה איזו מהן מתארת אתכם יותר טוב - התוצאה זהה: פתרון שמותאם בדיוק למה שאתם צריכים.</p>
       </div>
 
       <div class="paths-grid">
         <div class="path-col path-col-a">
-          <span class="mono col-label col-label-a">דוגמה א׳</span>
-          <h3>אתם יודעים מה אתם צריכים</h3>
-          <p class="col-sub">כמה דוגמאות מהעבר:</p>
-          <div class="item-list">
+          <span class="mono col-label col-label-a" data-key="paths.colA.label">דוגמה א׳</span>
+          <h3 data-key="paths.colA.title">אתם יודעים מה אתם צריכים</h3>
+          <p class="col-sub" data-key="paths.colA.sub">כמה דוגמאות מהעבר:</p>
+          <div class="item-list" data-list="paths.colA.items">
+            <template>
+              <div class="item">
+                <div class="item-title"><span class="bullet bullet-a"></span><span data-key="title"></span></div>
+                <div class="item-desc" data-key="desc"></div>
+              </div>
+            </template>
             <div class="item">
               <div class="item-title"><span class="bullet bullet-a"></span>מערכות ליצירת לידים</div>
               <div class="item-desc">צינורות אוטומטיים שמאתרים, מסננים ומנתבים את הלידים הנכונים - כדי שהצוות שלכם יתמקד בסגירת עסקאות ולא בחיפוש.</div>
@@ -115,10 +121,16 @@
         </div>
 
         <div class="path-col path-col-b">
-          <span class="mono col-label col-label-b">דוגמה ב׳</span>
-          <h3>אתם יודעים מה הבעיה, לא את הטכנולוגיה</h3>
-          <p class="col-sub">כמה דוגמאות מהעבר:</p>
-          <div class="item-list">
+          <span class="mono col-label col-label-b" data-key="paths.colB.label">דוגמה ב׳</span>
+          <h3 data-key="paths.colB.title">אתם יודעים מה הבעיה, לא את הטכנולוגיה</h3>
+          <p class="col-sub" data-key="paths.colB.sub">כמה דוגמאות מהעבר:</p>
+          <div class="item-list" data-list="paths.colB.items">
+            <template>
+              <div class="item">
+                <div class="item-title"><span class="bullet bullet-b"></span><span data-key="title"></span></div>
+                <div class="item-desc" data-key="desc"></div>
+              </div>
+            </template>
             <div class="item">
               <div class="item-title"><span class="bullet bullet-b"></span>הגדלת מכירות</div>
               <div class="item-desc">להפוך יותר מהתנועה והלידים הקיימים שלכם להכנסה - בלי להוסיף כוח אדם.</div>
@@ -138,15 +150,15 @@
           </div>
         </div>
       </div>
-      <p class="footnote">אלו רק דוגמאות להמחשה, לא קטלוג סגור. גם אם מה שאתם צריכים לא מופיע כאן, כנראה שנוכל לעזור.</p>
+      <p class="footnote" data-key="paths.footnote">אלו רק דוגמאות להמחשה, לא קטלוג סגור. גם אם מה שאתם צריכים לא מופיע כאן, כנראה שנוכל לעזור.</p>
     </div>
   </section>
 
   <!-- CONSULTING STRIP -->
   <section class="consulting-strip">
     <div class="wrap consulting-inner">
-      <p class="consulting-text">צריכים רק את העבודה האסטרטגית? אנחנו גם עורכים מחקרי שוק, מגבשים אסטרטגיית כניסה לשוק ובונים תוכניות עסקיות<strong> - כפרויקט עצמאי, או כשלב ראשון לפני שבונים משהו.</strong></p>
-      <a href="#" class="link-accent">גלו את הייעוץ האסטרטגי שלנו ←</a>
+      <p class="consulting-text"><span data-key="consulting.text">צריכים רק את העבודה האסטרטגית? אנחנו גם עורכים מחקרי שוק, מגבשים אסטרטגיית כניסה לשוק ובונים תוכניות עסקיות</span><strong data-key="consulting.strong"> - כפרויקט עצמאי, או כשלב ראשון לפני שבונים משהו.</strong></p>
+      <a href="#" class="link-accent">← <span data-key="consulting.cta">גלו את הייעוץ האסטרטגי שלנו</span></a>
     </div>
   </section>
 
@@ -157,11 +169,18 @@
         <div class="kicker">
           <span class="roman">II</span>
           <span class="rule"></span>
-          <span class="mono kicker-label">איך זה עובד</span>
+          <span class="mono kicker-label" data-key="how.kicker">איך זה עובד</span>
         </div>
-        <h2>תהליך אחד, משתי נקודות הכניסה.</h2>
+        <h2 data-key="how.heading">תהליך אחד, משתי נקודות הכניסה.</h2>
       </div>
-      <div class="steps-grid">
+      <div class="steps-grid" data-list="how.steps">
+        <template>
+          <div class="step">
+            <span class="mono step-num" data-key="num"></span>
+            <h4 data-key="title"></h4>
+            <p data-key="desc"></p>
+          </div>
+        </template>
         <div class="step">
           <span class="mono step-num">01</span>
           <h4>גילוי</h4>
@@ -193,10 +212,10 @@
       <div class="about-content">
         <div class="kicker">
           <span class="rule"></span>
-          <span class="mono kicker-label">למה אנחנו</span>
+          <span class="mono kicker-label" data-key="about.kicker">למה אנחנו</span>
         </div>
-        <p class="about-lead">הרקע שלנו הוא בייעוץ אסטרטגי - העבודה שדורשת קודם כל להבין איפה כדאי לעסק להמר, לפני שממליצים על כלום. שילבנו את זה עם ניסיון מעשי בבניית כלי AI ואוטומציה, כך שאותו צוות שמגבש את האסטרטגיה הוא גם זה שבונה אותה. רוב היועצים לא יודעים לבנות את מה שהם ממליצים עליו. רוב בוני ה-AI לא יודעים מה שווה לבנות מלכתחילה. אנחנו עושים את שני הדברים.</p>
-        <a href="#" class="link-plain">עוד על איך אנחנו עובדים ←</a>
+        <p class="about-lead" data-key="about.lead">הרקע שלנו הוא בייעוץ אסטרטגי - העבודה שדורשת קודם כל להבין איפה כדאי לעסק להמר, לפני שממליצים על כלום. שילבנו את זה עם ניסיון מעשי בבניית כלי AI ואוטומציה, כך שאותו צוות שמגבש את האסטרטגיה הוא גם זה שבונה אותה. רוב היועצים לא יודעים לבנות את מה שהם ממליצים עליו. רוב בוני ה-AI לא יודעים מה שווה לבנות מלכתחילה. אנחנו עושים את שני הדברים.</p>
+        <a href="#" class="link-plain">← <span data-key="about.link">עוד על איך אנחנו עובדים</span></a>
       </div>
     </div>
   </section>
@@ -208,12 +227,18 @@
         <div class="kicker">
           <span class="roman">IV</span>
           <span class="rule"></span>
-          <span class="mono kicker-label">עם מי אנחנו עובדים</span>
+          <span class="mono kicker-label" data-key="clients.kicker">עם מי אנחנו עובדים</span>
         </div>
-        <h2>לקוחות שעבדנו איתם</h2>
-        <p class="section-sub">העבודה שלנו פרוסה על פני מגוון רחב של סוגי לקוחות - הגישה משתנה, התהליך לא.</p>
+        <h2 data-key="clients.heading">לקוחות שעבדנו איתם</h2>
+        <p class="section-sub" data-key="clients.sub">העבודה שלנו פרוסה על פני מגוון רחב של סוגי לקוחות - הגישה משתנה, התהליך לא.</p>
       </div>
-      <div class="clients-grid">
+      <div class="clients-grid" data-list="clients.types">
+        <template>
+          <div class="client-type">
+            <h4 class="mono" data-key="name"></h4>
+            <p data-key="desc"></p>
+          </div>
+        </template>
         <div class="client-type">
           <h4 class="mono">עסקים עצמאיים</h4>
           <p>בעלי עסקים שמחפשים לצמצם עבודה ידנית ולהגדיל הכנסות בלי להוסיף כוח אדם.</p>
@@ -239,11 +264,11 @@
     <div class="wrap">
       <div class="kicker kicker-center">
         <span class="rule"></span>
-        <span class="mono kicker-label">בואו נתחיל</span>
+        <span class="mono kicker-label" data-key="finalCta.kicker">בואו נתחיל</span>
       </div>
-      <h2>לא בטוחים איפה להתחיל? שיחה קצרה בדרך כלל מספיקה כדי לדעת.</h2>
-      <button type="button" class="btn btn-primary js-open-modal">לתיאום שיחה</button>
-      <p class="microcopy">ללא עלות - רק שיחת היכרות על העסק שלכם.</p>
+      <h2 data-key="finalCta.heading">לא בטוחים איפה להתחיל? שיחה קצרה בדרך כלל מספיקה כדי לדעת.</h2>
+      <button type="button" class="btn btn-primary js-open-modal" data-key="finalCta.cta">לתיאום שיחה</button>
+      <p class="microcopy" data-key="finalCta.micro">ללא עלות - רק שיחת היכרות על העסק שלכם.</p>
     </div>
   </section>
 
@@ -260,10 +285,10 @@
       <span class="wordmark wordmark-footer">OTR Consulting</span>
     </div>
     <nav class="footer-nav">
-      <a href="#paths">מה אנחנו עושים</a>
-      <a href="#how">תהליך העבודה</a>
-      <a href="#about">אודות</a>
-      <a href="#" class="js-open-modal">לתיאום שיחה</a>
+      <a href="#paths" data-key="nav.work">מה אנחנו עושים</a>
+      <a href="#how" data-key="nav.process">תהליך העבודה</a>
+      <a href="#about" data-key="nav.about">אודות</a>
+      <a href="#" class="js-open-modal" data-key="nav.book">לתיאום שיחה</a>
     </nav>
     <div class="copyright" dir="ltr">© 2026 OTR Consulting</div>
   </div>
@@ -275,39 +300,40 @@
     <button type="button" class="modal-close js-close-modal" aria-label="סגירה">✕</button>
 
     <div class="modal-form-view js-form-view">
-      <h3 id="modal-title">ספרו לנו על העסק שלכם</h3>
-      <p class="modal-sub">כמה פרטים, ונחזור אליכם לתיאום שיחה.</p>
+      <h3 id="modal-title" data-key="modal.title">ספרו לנו על העסק שלכם</h3>
+      <p class="modal-sub" data-key="modal.sub">כמה פרטים, ונחזור אליכם לתיאום שיחה.</p>
       <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form js-contact-form">
         <input type="hidden" name="form-name" value="contact">
         <p class="visually-hidden"><label>אל תמלאו שדה זה אם אתם בני אדם: <input name="bot-field"></label></p>
         <div class="form-field">
-          <label for="name">שם</label>
-          <input type="text" id="name" name="name" placeholder="השם שלכם" required>
+          <label for="name" data-key="modal.name">שם</label>
+          <input type="text" id="name" name="name" placeholder="השם שלכם" data-ph="modal.namePh" required>
         </div>
         <div class="form-field">
-          <label for="email">אימייל</label>
-          <input type="email" id="email" name="email" placeholder="you@company.com" required dir="ltr">
+          <label for="email" data-key="modal.email">אימייל</label>
+          <input type="email" id="email" name="email" placeholder="you@company.com" data-ph="modal.emailPh" required dir="ltr">
         </div>
         <div class="form-field">
-          <label for="company">חברה <span class="optional">(אופציונלי)</span></label>
-          <input type="text" id="company" name="company" placeholder="שם החברה או הקרן">
+          <label for="company"><span data-key="modal.company">חברה</span> <span class="optional" data-key="modal.companyOpt">(אופציונלי)</span></label>
+          <input type="text" id="company" name="company" placeholder="שם החברה או הקרן" data-ph="modal.companyPh">
         </div>
         <div class="form-field">
-          <label for="message">מה אתם מחפשים לעשות?</label>
-          <textarea id="message" name="message" placeholder="משפט או שניים זה מספיק." required></textarea>
+          <label for="message" data-key="modal.message">מה אתם מחפשים לעשות?</label>
+          <textarea id="message" name="message" placeholder="משפט או שניים זה מספיק." data-ph="modal.messagePh" required></textarea>
         </div>
-        <button type="submit" class="btn btn-primary btn-full">שליחה</button>
+        <button type="submit" class="btn btn-primary btn-full" data-key="modal.send">שליחה</button>
       </form>
-      <p class="modal-direct">מעדיפים לפנות ישירות? <a href="mailto:matan@otr-consulting.com" dir="ltr">matan@otr-consulting.com</a> · <a href="tel:+972509909767" dir="ltr">+972 50‑990‑9767</a></p>
+      <p class="modal-direct"><span data-key="modal.direct">מעדיפים לפנות ישירות?</span> <a href="mailto:matan@otr-consulting.com" dir="ltr">matan@otr-consulting.com</a> · <a href="tel:+972509909767" dir="ltr">+972 50‑990‑9767</a></p>
     </div>
 
     <div class="modal-success-view js-success-view" hidden>
-      <h3>תודה - ההודעה נשלחה.</h3>
-      <p>נחזור אליכם תוך יום עסקים אחד כדי לתאם שיחה.</p>
+      <h3 data-key="modal.successTitle">תודה - ההודעה נשלחה.</h3>
+      <p data-key="modal.successBody">נחזור אליכם תוך יום עסקים אחד כדי לתאם שיחה.</p>
     </div>
   </div>
 </div>
 
+<script src="../js/render.js"></script>
 <script src="../js/main.js"></script>
 </body>
 </html>
