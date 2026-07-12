@@ -70,8 +70,8 @@
     "types": [
       { "name": "Independent Businesses", "desc": "Owner-operators looking to cut manual work and grow revenue without adding headcount." },
       { "name": "Startups", "desc": "Early and growth-stage teams building lean, using AI to move faster than their size would suggest." },
-      { "name": "Investment Funds", "desc": "Funds looking to speed up research, diligence, and portfolio monitoring with AI-assisted workflows." },
-      { "name": "Family Offices", "desc": "Family offices seeking strategic clarity and quiet, reliable execution across a range of initiatives." }
+      { "name": "Investment Funds", "desc": "" },
+      { "name": "Family Offices", "desc": "" }
     ]
   },
   "finalCta": {

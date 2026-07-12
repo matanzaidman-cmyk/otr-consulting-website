@@ -236,7 +236,14 @@ em { font-style: italic; color: var(--accent); }
   border-top: 1px solid var(--border-strong-2);
   gap: 24px;
 }
-.client-type { padding: 22px 20px 0 0; border-inline-start: 1px solid var(--border); }
+.client-type {
+  display: flex;
+  flex-direction: column;
+  padding-block: 22px 0;
+  padding-inline: 0 20px;
+  border-inline-start: 1px solid var(--border);
+}
+.client-type:has(p:empty) { justify-content: center; }
 .client-type h4 {
   font-size: 0.68rem;
   letter-spacing: 0.08em;
@@ -246,6 +253,7 @@ em { font-style: italic; color: var(--accent); }
   color: var(--accent);
 }
 .client-type p { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; }
+.client-type p:empty { display: none; margin: 0; }
 
 /* Final CTA */
 .final-cta { padding: 104px 0; text-align: center; border-top: 1px solid var(--border); }

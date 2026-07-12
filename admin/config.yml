@@ -115,7 +115,7 @@ collections:
                 widget: "list"
                 fields:
                   - { label: "Name", name: "name", widget: "string" }
-                  - { label: "Description", name: "desc", widget: "text" }
+                  - { label: "Description", name: "desc", widget: "text", required: false, hint: "Leave blank to show just the heading, centered." }
 
           - label: "Final CTA Section"
             name: "finalCta"
