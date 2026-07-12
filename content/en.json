@@ -68,8 +68,8 @@
     "heading": "Clients we've worked with",
     "sub": "Our work spans a wide range of client types - the approach adapts, the process doesn't.",
     "types": [
-      { "name": "Independent Businesses", "desc": "Owner-operators looking to cut manual work and grow revenue without adding headcount." },
-      { "name": "Startups", "desc": "Early and growth-stage teams building lean, using AI to move faster than their size would suggest." },
+      { "name": "Independent Businesses", "desc": "" },
+      { "name": "Startups", "desc": "" },
       { "name": "Investment Funds", "desc": "" },
       { "name": "Family Offices", "desc": "" }
     ]
