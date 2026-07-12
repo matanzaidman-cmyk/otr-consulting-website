@@ -196,8 +196,8 @@ em { font-style: italic; color: var(--accent); }
 .col-sub { font-size: 0.85rem; color: var(--text-tertiary); margin-bottom: 24px; }
 .item-list { display: flex; flex-direction: column; }
 .item { padding: 18px 0; border-top: 1px solid var(--border); }
-.item-title { font-weight: 600; font-size: 0.95rem; margin-bottom: 5px; display: flex; align-items: center; gap: 8px; }
-.bullet { width: 5px; height: 5px; display: inline-block; flex-shrink: 0; }
+.item-title { font-weight: 600; font-size: 0.95rem; margin-bottom: 5px; display: flex; align-items: flex-start; gap: 8px; }
+.bullet { width: 5px; height: 5px; display: inline-block; flex-shrink: 0; margin-top: calc((1.65em - 5px) / 2); }
 .bullet-a { background: var(--accent); }
 .bullet-b { background: var(--accent-b); }
 .item-desc { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.55; padding-inline-start: 13px; }
