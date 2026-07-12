@@ -5,15 +5,50 @@
     "about": "About",
     "book": "Book a Call"
   },
-  "hero": {
-    "eyebrow": "Strategy · AI Implementation",
-    "tag": "OTR-Consulting.com",
-    "pre": "Strategy that knows what to build. ",
-    "em": "AI",
-    "post": " that knows how to build it.",
-    "lead": "OTR Consulting is a strategy and AI implementation practice. We partner with organizations of every size and sector, guiding each engagement end-to-end - from market research, sector mapping, and go-to-market strategy, through building the tailored AI system itself, to ongoing maintenance once it's live. There is no fixed menu: every engagement begins with your specific situation, and the right solution follows from it.",
-    "ctaPrimary": "Book a Call",
-    "micro": "Free of charge - just a conversation about your business."
+  "clients": {
+    "kicker": "Who we work with",
+    "heading": "Clients we've worked with",
+    "sub": "Our work spans a wide range of client types - the approach adapts, the process doesn't.",
+    "types": [
+      {
+        "name": "Independent Businesses",
+        "desc": ""
+      },
+      {
+        "name": "Startups",
+        "desc": ""
+      },
+      {
+        "name": "Investment Funds",
+        "desc": ""
+      },
+      {
+        "name": "Family Offices",
+        "desc": ""
+      }
+    ]
+  },
+  "modal": {
+    "sub": "A few details, and we'll be in touch to set up a time to talk.",
+    "namePh": "Your name",
+    "successBody": "We'll get back to you within one business day to find a time to talk.",
+    "message": "What are you looking to do?",
+    "send": "Send",
+    "direct": "Prefer to reach out directly?",
+    "name": "Name",
+    "emailPh": "you@company.com",
+    "successTitle": "Thanks - message sent.",
+    "companyPh": "Company or fund name",
+    "companyOpt": "(optional)",
+    "title": "Tell us about your business",
+    "email": "Email",
+    "company": "Company",
+    "messagePh": "A sentence or two is plenty."
+  },
+  "about": {
+    "kicker": "Why us",
+    "lead": "Our background is in strategy consulting - the kind of work that means figuring out where a business should place its bets before recommending anything. We've paired that with hands-on AI and automation expertise, so the same team that maps out the strategy is the one that builds it. Most consultants can't build what they recommend. Most AI builders don't know what's worth building in the first place. We do both.",
+    "link": "More about how we work"
   },
   "paths": {
     "kicker": "How engagements typically start",
@@ -21,13 +56,25 @@
     "sub": "These aren't fixed packages - they're examples of how conversations usually begin. Whichever describes you, the outcome is the same: a solution scoped to what you actually need.",
     "colA": {
       "label": "Example A",
-      "title": "You know what you need",
+      "title": "You know what product / solution you need",
       "sub": "A few examples of what this has looked like:",
       "items": [
-        { "title": "Lead Generation Systems", "desc": "Automated pipelines that find, qualify, and route the right prospects - so your team spends time closing, not searching." },
-        { "title": "CRM Integrations", "desc": "Connect your CRM to the tools you actually use, so data moves on its own and nothing falls through the cracks." },
-        { "title": "Chatbots & Support Agents", "desc": "AI-driven conversations that handle inquiries, bookings, and support around the clock - trained on how your business actually talks." },
-        { "title": "Custom Workflow Agents", "desc": "Purpose-built AI agents for the specific, repetitive process eating your team's time - designed around your workflow, not a template." }
+        {
+          "title": "Lead Generation Systems",
+          "desc": "Automated pipelines that find, qualify, and route the right prospects - so your team spends time closing, not searching."
+        },
+        {
+          "title": "CRM Integrations",
+          "desc": "Connect your CRM to the tools you actually use, so data moves on its own and nothing falls through the cracks."
+        },
+        {
+          "title": "Chatbots & Support Agents",
+          "desc": "AI-driven conversations that handle inquiries, bookings, and support around the clock - trained on how your business actually talks."
+        },
+        {
+          "title": "Custom Workflow Agents",
+          "desc": "Purpose-built AI agents for the specific, repetitive process eating your team's time - designed around your workflow, not a template."
+        }
       ]
     },
     "colB": {
@@ -35,66 +82,71 @@
       "title": "You know the problem, not the tech",
       "sub": "A few examples of what this has looked like:",
       "items": [
-        { "title": "Grow Sales", "desc": "Turn more of your existing traffic and leads into revenue - without adding headcount." },
-        { "title": "Lower Response Times", "desc": "Answer customers and prospects faster, at any hour, without anyone standing by to do it manually." },
-        { "title": "Reduce Manual Work", "desc": "Get the repetitive, low-value tasks off your team's plate - and onto a system that doesn't get tired of them." },
-        { "title": "Make Faster, Better-Informed Decisions", "desc": "Get clearer, faster analysis so you can act on opportunities before they pass - without hiring an analyst team." }
+        {
+          "title": "Grow Sales",
+          "desc": "Turn more of your existing traffic and leads into revenue - without adding headcount."
+        },
+        {
+          "title": "Lower Response Times",
+          "desc": "Answer customers and prospects faster, at any hour, without anyone standing by to do it manually."
+        },
+        {
+          "title": "Reduce Manual Work",
+          "desc": "Get the repetitive, low-value tasks off your team's plate - and onto a system that doesn't get tired of them."
+        },
+        {
+          "title": "Make Faster, Better-Informed Decisions",
+          "desc": "Get clearer, faster analysis so you can act on opportunities before they pass - without hiring an analyst team."
+        }
       ]
     },
     "footnote": "These are illustrative - not a catalog. If what you need isn't listed here, it's probably still something we can help with."
+  },
+  "how": {
+    "kicker": "How it works",
+    "heading": "One process, from either entry point.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Discovery",
+        "desc": "We map your actual workflow and constraints - not a generic questionnaire."
+      },
+      {
+        "num": "02",
+        "title": "Build",
+        "desc": "We design and build the system against your specific process and data."
+      },
+      {
+        "num": "03",
+        "title": "Ship",
+        "desc": "Live in your business, tested against real cases before full rollout."
+      },
+      {
+        "num": "04",
+        "title": "Maintain",
+        "desc": "Ongoing support as your business - and the system - keeps evolving."
+      }
+    ]
   },
   "consulting": {
     "text": "Need the strategy work on its own? We also run market research, GTM strategy, and business planning",
     "strong": " - as a standalone engagement, or as the first step before we build anything.",
     "cta": "See our Strategic Consulting services"
   },
-  "how": {
-    "kicker": "How it works",
-    "heading": "One process, from either entry point.",
-    "steps": [
-      { "num": "01", "title": "Discovery", "desc": "We map your actual workflow and constraints - not a generic questionnaire." },
-      { "num": "02", "title": "Build", "desc": "We design and build the system against your specific process and data." },
-      { "num": "03", "title": "Ship", "desc": "Live in your business, tested against real cases before full rollout." },
-      { "num": "04", "title": "Maintain", "desc": "Ongoing support as your business - and the system - keeps evolving." }
-    ]
-  },
-  "about": {
-    "kicker": "Why us",
-    "lead": "Our background is in strategy consulting - the kind of work that means figuring out where a business should place its bets before recommending anything. We've paired that with hands-on AI and automation expertise, so the same team that maps out the strategy is the one that builds it. Most consultants can't build what they recommend. Most AI builders don't know what's worth building in the first place. We do both.",
-    "link": "More about how we work"
-  },
-  "clients": {
-    "kicker": "Who we work with",
-    "heading": "Clients we've worked with",
-    "sub": "Our work spans a wide range of client types - the approach adapts, the process doesn't.",
-    "types": [
-      { "name": "Independent Businesses", "desc": "" },
-      { "name": "Startups", "desc": "" },
-      { "name": "Investment Funds", "desc": "" },
-      { "name": "Family Offices", "desc": "" }
-    ]
-  },
   "finalCta": {
     "kicker": "Get started",
     "heading": "Not sure where to start? A short call is usually enough to know.",
     "cta": "Book a Call",
-    "micro": "Free of charge - just a conversation about your business."
+    "micro": "Introduction call - free of charge"
   },
-  "modal": {
-    "title": "Tell us about your business",
-    "sub": "A few details, and we'll be in touch to set up a time to talk.",
-    "name": "Name",
-    "namePh": "Your name",
-    "email": "Email",
-    "emailPh": "you@company.com",
-    "company": "Company",
-    "companyOpt": "(optional)",
-    "companyPh": "Company or fund name",
-    "message": "What are you looking to do?",
-    "messagePh": "A sentence or two is plenty.",
-    "send": "Send",
-    "direct": "Prefer to reach out directly?",
-    "successTitle": "Thanks - message sent.",
-    "successBody": "We'll get back to you within one business day to find a time to talk."
+  "hero": {
+    "eyebrow": "Strategy · AI Implementation",
+    "tag": "OTR-Consulting.com",
+    "pre": "Strategy that knows what to build. ",
+    "em": "AI",
+    "post": " that knows how to build it.",
+    "lead": "OTR Consulting is a strategy and AI implementation agency. We partner with organizations of every size and sector, guiding each engagement end-to-end - from market research, sector mapping, and go-to-market strategy, through building the tailored AI system itself, to ongoing maintenance once it's live. There is no fixed menu: every engagement begins with your specific situation, and the right solution follows from it.",
+    "ctaPrimary": "Book a Call",
+    "micro": "Introduction call - free of charge"
   }
 }
