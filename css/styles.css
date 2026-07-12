@@ -187,8 +187,8 @@ em { font-style: italic; color: var(--accent); }
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   border-top: 1px solid var(--border-strong-2);
 }
-.path-col-a { padding-block: 36px 8px; padding-inline: 0 44px; border-inline-end: 1px solid var(--border); }
-.path-col-b { padding-block: 36px 8px; padding-inline: 44px 0; }
+.path-col-a { padding-block: 36px 8px; padding-inline: 0 56px; border-inline-end: 1px solid var(--border); }
+.path-col-b { padding-block: 36px 8px; padding-inline: 56px 0; }
 .col-label { font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; }
 .col-label-a { color: var(--accent); }
 .col-label-b { color: var(--accent-b); }
