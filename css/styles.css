@@ -243,7 +243,12 @@ em { font-style: italic; color: var(--accent); }
   padding-inline: 0 20px;
   border-inline-start: 1px solid var(--border);
 }
-.client-type:has(p:empty) { justify-content: center; }
+.client-type:has(p:empty) {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-inline: 20px;
+}
 .client-type h4 {
   font-size: 0.68rem;
   letter-spacing: 0.08em;
@@ -251,6 +256,15 @@ em { font-style: italic; color: var(--accent); }
   font-weight: 600;
   margin: 0 0 12px;
   color: var(--accent);
+}
+.client-type:has(p:empty) h4 {
+  font-family: var(--font-headline);
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--text-primary);
+  margin: 0;
 }
 .client-type p { font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; }
 .client-type p:empty { display: none; margin: 0; }
