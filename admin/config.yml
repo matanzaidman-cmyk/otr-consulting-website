@@ -132,6 +132,7 @@ collections:
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Subheading", name: "sub", widget: "string" }
+              - { label: "Trust/urgency line", name: "trust", widget: "string", required: false }
               - { label: "Name field label", name: "name", widget: "string" }
               - { label: "Name field placeholder", name: "namePh", widget: "string" }
               - { label: "Email field label", name: "email", widget: "string" }

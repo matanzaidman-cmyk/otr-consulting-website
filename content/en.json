@@ -30,6 +30,7 @@
   },
   "modal": {
     "sub": "A few details, and we'll be in touch to set up a time to talk.",
+    "trust": "We reply within 24 hours. No sales deck - just a real conversation about whether this makes sense.",
     "namePh": "Your name",
     "successBody": "We'll get back to you within one business day to find a time to talk.",
     "message": "What are you looking to do?",
@@ -43,7 +44,7 @@
     "title": "Tell us about your business",
     "email": "Email",
     "company": "Company",
-    "messagePh": "A sentence or two is plenty."
+    "messagePh": "e.g. \"We're losing leads to slow follow-up\" or \"We want to explore AI but don't know where to start.\""
   },
   "about": {
     "kicker": "Why us",
@@ -84,19 +85,19 @@
       "items": [
         {
           "title": "Grow Sales",
-          "desc": "Turn more of your existing traffic and leads into revenue - without adding headcount."
+          "desc": "Turn more of your existing traffic and leads into revenue - without adding headcount. Every lead that doesn't convert is revenue you already paid to generate."
         },
         {
           "title": "Lower Response Times",
-          "desc": "Answer customers and prospects faster, at any hour, without anyone standing by to do it manually."
+          "desc": "Answer customers and prospects faster, at any hour, without anyone standing by to do it manually. Every hour a lead sits unanswered, your odds of closing it drop."
         },
         {
           "title": "Reduce Manual Work",
-          "desc": "Get the repetitive, low-value tasks off your team's plate - and onto a system that doesn't get tired of them."
+          "desc": "Get the repetitive, low-value tasks off your team's plate - and onto a system that doesn't get tired of them. That's headcount you're not adding, and hours your best people get back for the work only they can do."
         },
         {
           "title": "Make Faster, Better-Informed Decisions",
-          "desc": "Get clearer, faster analysis so you can act on opportunities before they pass - without hiring an analyst team."
+          "desc": "Get clearer, faster analysis so you can act on opportunities before they pass - without hiring an analyst team. Decisions made on stale data are opportunities that already had a shelf life."
         }
       ]
     },
@@ -145,7 +146,7 @@
     "pre": "Strategy that knows what to build. ",
     "em": "AI",
     "post": " that knows how to build it.",
-    "lead": "OTR Consulting is a strategy and AI implementation agency. We partner with organizations of every size and sector, guiding each engagement end-to-end - from market research, sector mapping, and go-to-market strategy, through building the tailored AI system itself, to ongoing maintenance once it's live. There is no fixed menu: every engagement begins with your specific situation, and the right solution follows from it.",
+    "lead": "Most AI initiatives fail for one reason: the people who figure out what to build are never the people who build it. Strategy gets handed off, context gets lost, and by the time something ships, it doesn't match the business anymore.\nOTR Consulting closes that gap. One team, start to finish - from market research and go-to-market strategy through the AI system itself, live and maintained. No handoff. No re-explaining what the last consultant meant.",
     "ctaPrimary": "Book a Call",
     "micro": "Introduction call - free of charge"
   }
