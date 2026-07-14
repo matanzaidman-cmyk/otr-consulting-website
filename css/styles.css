@@ -232,8 +232,6 @@ em { font-style: italic; color: var(--accent); }
 
 /* About */
 .about { background: var(--bg-alt); padding: 96px 0; border-top: 1px solid var(--border); }
-.about-grid { display: grid; grid-template-columns: minmax(0,64px) minmax(0,1fr); gap: 24px; }
-.roman-rail { font-size: 0.95rem; }
 .about-content { max-width: 760px; }
 .about-content .kicker { margin-bottom: 20px; }
 .about-lead { font-size: 1.55rem; line-height: 1.44; margin: 0 0 30px; font-weight: 400; }
@@ -379,8 +377,6 @@ em { font-style: italic; color: var(--accent); }
   .paths-items-grid { grid-template-columns: 1fr; grid-template-rows: none; grid-auto-flow: row; }
   .item-a { padding-inline-end: 0; border-inline-end: none; }
   .item-b { padding-inline-start: 0; }
-  .about-grid { grid-template-columns: 1fr; }
-  .roman-rail { display: none; }
 }
 
 @media (max-width: 480px) {
