@@ -188,15 +188,26 @@ em { font-style: italic; color: var(--accent); }
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   border-top: 1px solid var(--border-strong-2);
 }
-.path-col-a { padding-block: 36px 8px; padding-inline: 0 56px; border-inline-end: 1px solid var(--border); }
+.path-col-a { padding-block: 36px 8px; padding-inline: 0 56px; }
 .path-col-b { padding-block: 36px 8px; padding-inline: 56px 0; }
 .col-label { font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; }
 .col-label-a { color: var(--accent); }
 .col-label-b { color: var(--accent-b); }
 .path-col h3 { font-size: 1.25rem; margin: 10px 0 6px; }
-.col-sub { font-size: 0.85rem; color: var(--text-tertiary); margin-bottom: 24px; }
-.item-list { display: flex; flex-direction: column; }
-.item { padding: 18px 0; border-top: 1px solid var(--border); }
+.col-sub { font-size: 0.85rem; color: var(--text-tertiary); margin-bottom: 0; }
+
+/* Items live in a separate grid so item N of Example A and item N of Example B
+   share a row and stretch to equal height, regardless of text length. */
+.paths-items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-rows: repeat(4, auto);
+  grid-auto-flow: column;
+}
+.items-group { display: contents; }
+.item { padding-block: 18px 0; border-top: 1px solid var(--border); }
+.item-a { padding-inline: 0 56px; border-inline-end: 1px solid var(--border); }
+.item-b { padding-inline: 56px 0; }
 .item-title { font-weight: 600; font-size: 0.95rem; margin-bottom: 5px; display: flex; align-items: flex-start; gap: 8px; }
 .bullet { width: 5px; height: 5px; display: inline-block; flex-shrink: 0; margin-top: calc((1.65em - 5px) / 2); }
 .bullet-a { background: var(--accent); }
@@ -363,8 +374,11 @@ em { font-style: italic; color: var(--accent); }
 @media (max-width: 700px) {
   .main-nav { display: none; }
   .header-right { gap: 0; }
-  .path-col-a { padding-inline-end: 0; border-inline-end: none; padding-bottom: 8px; }
+  .path-col-a { padding-inline-end: 0; padding-bottom: 8px; }
   .path-col-b { padding-inline-start: 0; }
+  .paths-items-grid { grid-template-columns: 1fr; grid-template-rows: none; grid-auto-flow: row; }
+  .item-a { padding-inline-end: 0; border-inline-end: none; }
+  .item-b { padding-inline-start: 0; }
   .about-grid { grid-template-columns: 1fr; }
   .roman-rail { display: none; }
 }
