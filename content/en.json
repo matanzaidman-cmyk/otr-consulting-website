@@ -6,8 +6,8 @@
     "book": "Book a Call"
   },
   "clients": {
-    "kicker": "Who we work with",
-    "heading": "Clients we've worked with",
+    "kicker": "Who can benefit",
+    "heading": "Types of clients we've worked with",
     "sub": "Our work spans a wide range of client types - the approach adapts, the process doesn't.",
     "types": [
       {
@@ -48,7 +48,7 @@
   },
   "about": {
     "kicker": "Why us",
-    "lead": "Our background is in strategy consulting - the kind of work that means figuring out where a business should place its bets before recommending anything. We've paired that with hands-on AI and automation expertise, so the same team that maps out the strategy is the one that builds it. Most consultants can't build what they recommend. Most AI builders don't know what's worth building in the first place. We do both.",
+    "lead": "Most consultants can't build what they recommend. Most AI builders don't know what's worth building in the first place. We do both.\n\nOur background is in strategy consulting - the kind of work that means figuring out where a business should place its bets before recommending anything. We've paired that with hands-on AI and automation expertise, so the same team that maps out the strategy is the one that builds it. ",
     "link": "More about how we work"
   },
   "paths": {
@@ -101,31 +101,31 @@
         }
       ]
     },
-    "footnote": "These are illustrative - not a catalog. If what you need isn't listed here, it's probably still something we can help with."
+    "footnote": "These are illustrative - not a catalog. If what you need isn't listed here, we will find the right solution for you"
   },
   "how": {
     "kicker": "How it works",
-    "heading": "One process, from either entry point.",
+    "heading": "One process, unlimited solutions",
     "steps": [
       {
         "num": "01",
         "title": "Discovery",
-        "desc": "We map your actual workflow and constraints - not a generic questionnaire."
+        "desc": "We map your actual workflow and constraints."
       },
       {
         "num": "02",
         "title": "Build",
-        "desc": "We design and build the system against your specific process and data."
+        "desc": "We design and build the system according to your needs and data."
       },
       {
         "num": "03",
         "title": "Ship",
-        "desc": "Live in your business, tested against real cases before full rollout."
+        "desc": "We launch the system, tested against real cases before full rollout."
       },
       {
         "num": "04",
         "title": "Maintain",
-        "desc": "Ongoing support as your business - and the system - keeps evolving."
+        "desc": "We provide ongoing support as your business - and the system - keeps evolving."
       }
     ]
   },
