@@ -238,8 +238,7 @@ em { font-style: italic; color: var(--accent); }
 
 /* Clients */
 .clients { padding: 92px 0; border-top: 1px solid var(--border); }
-.clients h2 { font-size: 1.75rem; }
-.clients .section-sub { margin-top: 12px; font-size: 0.96rem; }
+.clients .section-sub { font-size: 1.15rem; color: var(--text-primary); max-width: 620px; }
 .clients-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
